@@ -5,10 +5,9 @@ git:
     file_format: STRINGS
     source_file_extension: strings
     source_language: en
-    source_file_dir: Samedis.care/wrongfolder/Localization
+    source_file_dir: Samedis.care/Localization
     # path expression to translation files, must contain <lang> placeholder
     translation_files_expression: 'Samedis.care/Localization/<lang>.lproj/Localizable.strings'
-    
   - filter_type: file
     file_format: KEYVALUEJSON
     source_file: rpt/local-dev_en.json
