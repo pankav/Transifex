@@ -1,0 +1,15 @@
+git:
+ filters:
+  - filter_type: file
+    # all supported i18n types: https://docs.transifex.com/formats
+    file_format: STRINGS
+    source_language: pt_BR
+    source_file: ios-features/ucommunity/ucommunity/resources/pt_BR/lproj/localizable.strings
+    # path expression to translation files, must contain <lang> placeholder
+    translation_files_expression: 'ios-features/ucommunity/ucommunity/resources/<lang>/lproj/localizable.strings'
+    
+  - filter_type: file
+    file_format: KEYVALUEJSON
+    source_file: rpt/local-dev_en.json
+    source_language: en
+    translation_files_expression: 'Translations/<lang>/'
