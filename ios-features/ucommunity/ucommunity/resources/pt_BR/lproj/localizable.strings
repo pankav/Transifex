@@ -1,1 +1,496 @@
+// MARK: - Create Community
 
+"community.create.subscription.associate" = "Você pode definir valores para vender a assinatura da sua comunidade em diferentes lugares. Vamos lá?";
+
+"community.create.subscription.privacy.warning" = "Apenas comunidades fechadas podem ser comercializadas. Você pode ajustar isso na parte de <b>”Configurações”</b>.";
+"community.create.subscription.privacy.disable_warning.title" = "Planos de cobrança desabilitados";
+"community.create.subscription.privacy.disable_warning.description" = "Apenas comunidades fechadas podem ter planos de cobrança e serem comercializadas. Portanto, ao clicar em <b>\"Criar comunidade\”</b>, seus planos de cobrança serão descartados. Você poder ajustar isso na parte de <b>\"Configurações\"</b>.";
+
+"community.create.subscription.quantity.title" = "Quantos planos posso criar?";
+"community.create.subscription.quantity.description" = "Você pode criar apenas 1 plano por comunidade. Ele deve ter o preço principal, que será usado para assinaturas contratadas em sites, e você ainda pode adicionar 2 preços para assinaturas feitas pelo aplicativo Sparkle (1 para Android e 1 para iOS).";
+"community.create.subscription.settings.title" = "Escolha uma opção...";
+"community.create.subscription.settings.first" = "Editar plano de cobrança";
+"community.create.subscription.settings.second" = "Excluir plano de cobrança";
+"community.create.subscription.settings.delete.title" = "Tem certeza que deseja excluir o plano de cobrança?";
+"community.create.subscription.settings.delete.description" = "Essa ação excluirá permanentemente as informações e valores definidos para assinatura do plano.";
+"community.create.subscription.settings.delete.option.ok" = "Sim, excluir plano";
+"community.create.subscription.settings.delete.option.cancel" = "Cancelar";
+"community.create.subscription.polling.loading.title" = "Criando sua comunidade...";
+"community.create.subscription.polling.loading.description" = "Estamos trabalhando na criação da sua comunidade. Não se preocupe, isso pode levar algum tempo!";
+"community.create.subscription.polling.success.title" = "Sua comunidade foi criada com sucesso!";
+"community.create.subscription.polling.error.title" = "Sua comunidade não foi criada ainda";
+"community.create.subscription.polling.error.description" = "Ocorreu um erro durante o processo. Por favor, verifique sua conexão de internet e tente novamente.";
+"community.create.subscription.polling.error.button" = "Tentar Novamente";
+
+// MARK: - Subscription
+ 
+"community.create.subscription.title" = "Plano de cobrança";
+"community.create.subscription.create" = "Criar plano";
+"community.create.subscription.plan.title" = "Informações do plano";
+"community.create.subscription.description.label" = "Descrição do plano";
+"community.create.subscription.name.label" = "Nome do plano";
+"community.create.subscription.description.label" = "Descrição do plano";
+"community.create.subscription.name.description" = "Crie um nome para ofertar a assinatura da comunidade";
+"community.create.subscription.description.description" = "Conte um pouco sobre os benefícios deste plano";
+"community.create.subscription.category.title" = "Categoria da comunidade";
+"community.create.subscription.category.label" = "Escolha um assunto";
+"community.create.subscription.category.description" = "Isso ajuda pessoas interessadas no assunto a encontrarem sua comunidade mais facilmente";
+"community.create.subscription.category.list.title" = "Categoria da Comunidade";
+"community.create.subscription.category.list.description" = "Escolha um assunto";
+"community.create.subscription.pricing.title" = "Preço principal";
+"community.create.subscription.currency.label" = "Moeda base para conversão ";
+"community.create.subscription.currency.description" = "• As moedas podem ter cobranças de impostos diferentes\n• Vendas via App serão recebidas em dólar ou euro.";
+"community.create.subscription.currency.list.title" = "Moeda";
+"community.create.subscription.currency.list.description" = "Escolha a moeda base para precificação";
+"community.create.subscription.price.label" = "Valor mensal do plano";
+"community.create.subscription.price.description" = "Este será o valor mensal cobrado pela assinatura da sua comunidade.";
+"community.create.subscription.back_alert.title" = "Tem certeza que quer sair sem salvar o plano?";
+"community.create.subscription.back_alert.description" = "Para salvar as informações antes de sair, finalize a criação do plano.";
+"community.create.subscription.back_alert.action.ok" = "Sair sem salvar";
+"community.create.subscription.back_alert.action.cancel" = "Continuar criando";
+
+
+// MARK: - Subscription Offer
+
+"community.create.subscription.offer.add_pricing" = "Adicionar valor";
+"community.create.subscription.offer.header.title" = "Preço de venda via app";
+"community.create.subscription.offer.header.description" = "Você também pode escolher valores para a assintatura da sua comunidade pelo aplicativo da Hotmart, o Sparkle.";
+
+// MARK: - Offer
+
+"community.offer.create.set_price.title" = "Escolha o valor de assinatura mensal";
+"community.offer.create.set_price.description" = "A cobrança mensal é feita via %@\ne, por isso, você receberá o valor em %@.";
+"community.offer.create.fee.fee_of" = "Taxa da %@";
+"community.offer.create.fee.total_to_receive" = "Total a receber por assinatura";
+"community.offer.create.fee.month" = "Mês";
+"community.offer.create.currency.label" = "Escolha a moeda";
+"community.offer.create.currency.description" = "As moedas estão sujeitas a diferentes cobranças de impostos";
+"community.offer.create.currency.list.title" = "Moeda";
+"community.offer.create.currency.list.description" = "Escolha a moeda base para precificação";
+"community.offer.create.price.label" = "Preço";
+"community.offer.create.price.description" = "Este será o valor mensal cobrado pela assinatura da comunidade";
+"community.offer.create.add_offer" = "Adicionar oferta";
+"community.offer.main.description" = "Oferta Hotmart";
+
+// MARK: - Mobile Offer 
+
+"community.mobile.ios" = "Oferta iOS";
+"community.mobile.android" = "Oferta Android";
+"community.mobile.app.name" = "Sparkle App";
+"community.mobile.ios.title" = "Oferta iOS";
+"community.mobile.ios.description" = "Cobrança via Apple Store";
+"community.mobile.android.title" = "Oferta Android";
+"community.mobile.android.description" = "Cobrança via Google Play Store";
+
+// MARK: - Offer More Info
+
+"community.offer.more_info.title" = "Mais informações";
+"community.offer.more_info.header" = "Entenda mais sobre vendas em Apps";
+"community.offer.more_info.header.description" = "Confira os detalhes e restrições de pagamentos";
+"community.offer.more_info.article.description" = "Confira mais informações sobre esse assunto no artigo que criamos.";
+"community.offer.more_info.article.button" = "Mais informações";
+"community.offer.more_info.pricing.header" = "Precificação";
+"community.offer.more_info.pricing.description" = "Você receberá pelas assinaturas em euro (Android) ou dólar (iOS), como mostramos na tela de escolha do valor da assinatura via App.";
+"community.offer.more_info.fares.header" = "Tarifas";
+"community.offer.more_info.fares.description" = "A tarifa da Hotmart é de apenas %@, porém as lojas de Apps cobram também uma taxa de %@ sobre o valor da venda.";
+"community.offer.more_info.exchange_variation.header" = "Variação cambial";
+"community.offer.more_info.exchange_variation.description" = "O preço da assinatura irá variar de acordo com o câmbio no dia.";
+"community.offer.more_info.tax.header" = "Imposto";
+"community.offer.more_info.tax.description" = "O preço da assinatura pode variar de acordo com os impostos do país do assinante.";
+
+// MARK: - Selling Page
+
+"community.selling_page.top_bar.title" = "Comunidade";
+"community.selling_page.creator_space.description" = "%@ anos de Hotmart";
+"community.selling_page.creator_space.button.title" = "Acessar Espaço";
+"community.selling_page.creator_video.title" = "Sobre a comunidade";
+"community.selling_page.creator_video.description" = "Confira a mensagem do criador para você.";
+"community.selling_page.benefits.title" = "Vantagens das comunidades no Sparkle";
+"community.selling_page.benefits.content.title" = "Conteúdos exclusivos";
+"community.selling_page.benefits.content.description" = "Acesso a conteúdos, exclusivos. Não perca nenhum detalhe.";
+"community.selling_page.benefits.interact.title" = "Interaja com outras pessoas";
+"community.selling_page.benefits.interact.description" = "Interaja com pessoas com o mesmo interesse, viva a comunidade";
+"community.selling_page.benefits.notification.title" = "Receba Notificações";
+"community.selling_page.benefits.notification.description" = "Receba notificações das publicações. Você ficará por dentro de tudo.";
+"community.selling_page.creator_info.title" = "Conheça %@";
+"community.selling_page.creator_info.description" = "Na Hotmart desde %@";
+"community.selling_page.creator_info.team.title" = "Equipe";
+"community.selling_page.price.title" = "Assine por %@ / semana";
+"community.selling_page.price.subtitle" = "Aproveite %d dias grátis";
+"community.selling_page.price.button" = "Conferir plano";
+"community.selling_page.price.error.description" = "Algo deu errado e não foi possível\ncarregar a oferta";
+"community.selling_page.pricing" = "Paga";
+"community.selling_page.participants" = "Participantes";
+"community.selling_page.description.read_more" = "Ler mais";
+"community.selling_page.assurances.title" = "Garantias";
+"community.selling_page.assurances.refund" = "Reembolso em %d dias";
+"community.selling_page.assurances.refund_description" = "Caso você não goste do conteúdo, você poderá pedir o reembolso total.";
+"community.selling_page.assurances.support" = "Suporte Hotmart";
+"community.selling_page.assurances.support_description" = "Você não está sozinho, você terá o suporte da Hotmart para te ajudar.";
+
+"community.selling_page.error.description" = "Algo deu errado e não foi possível buscar as informações da página";
+
+"community.selling_page.sign.price" = "%@ / semana";
+"community.selling_page.sign.description" = "Ao assinar esta comunidade, você está incentivando que @%@ continue produzindo conteúdos.";
+"community.selling_page.sign.exclusive_content" = "Conteúdo Exclusivo";
+"community.selling_page.sign.assurance" = "Garantia de reembolso";
+"community.selling_page.sign.support" = "Suporte Hotmart";
+"community.selling_page.sign.charge_back" = "Desistência grátis em até %d dias • Primeira cobrança em %@ • Cancele a qualquer momento";
+"community.selling_page.sign.action" = "Assinar por %@ / semana";
+
+"community.selling_page.share.share_community" = "Compartilhar";
+"community.selling_page.share.promotion_links" = "Links de divulgação";
+"community.selling_page.share.cancel" = "Cancelar";
+
+"community.selling_page.subscribe.footer.title" = "Seja um assinante!";
+"community.selling_page.subscribe.footer.button" = "Quero assinar";
+"community.selling_page.subscribe.alert.title" = "Você está prestes a ser um assinante %@";
+"community.selling_page.subscribe.alert.description" = "Enviamos um email para %@ com informações sobre o plano para você poder assinar a comunidade.";
+"community.selling_page.subscribe.alert.button" = "Ok";
+"community.selling_page.subscribe.error.description" = "Algo deu errado e não foi possível fornecer mais informações sobre o plano";
+
+// MARK: - UserBio
+
+"community.user_bio.title" = "Bio";
+"community.user_bio.presentation.title" = "Olá, meu nome é %@";
+"community.user_bio.presentation.description" = "No Sparkle desde %@";
+"community.user_bio.empty_bio" = "Sem biografia cadastrada";
+"community.user_bio.empty_bio.message" = "Algo deu errado e não foi possível salvar suas informações";
+"community.user_bio.retry_button.title" = "Tentar novamente";
+"community.user_bio.add_bio.textfield.title" = "Escrever bio";
+"community.user_bio.add_bio.textfield.description" = "Isso ajuda pessoas te conhecerem";
+"community.user_bio.add_bio.description" = "Seu público quer te conhecer melhor! Conte um pouco mais sobre você, sua história, seu propósito aqui ....";
+"community.user_bio.add_bio.save_button.title" = "Salvar bio";
+
+// MARK: - Rating Page
+
+"community.rating.title.single" = "Avaliação";
+"community.rating.title.plural" = "Avaliações";
+"community.rating.grade" = "Nota";
+"community.rating.show_ratings" = "Mostrar %d avaliações";
+"community.rating.last_year" =  " — %d ano atrás";
+"community.rating.last_month" = " — %d mês atrás";
+"community.rating.last_day" = " — %d dia atrás";
+"community.rating.last_hour" = " — %d hora atrás";
+"community.rating.last_minute" = " — %d minuto atrás";
+"community.rating.last_year.plural" =  " — %d anos atrás";
+"community.rating.last_month.plural" = " — %d meses atrás";
+"community.rating.last_day.plural" = " — %d dias atrás";
+"community.rating.last_hour.plural" = " — %d horas atrás";
+"community.rating.last_minute.plural" = " — %d minutos atrás";
+"community.rating.error" = "Algo deu errado e não foi possível buscar as avaliações";
+
+// MARK: - Promotion
+
+"community.promotion.title" = "Links de divulgação";
+"community.promotion.plan" = "Plano";
+"community.promotion.share" = "Compartilhar";
+"community.promotion.copy_link" = "Copiar link";
+"community.promotion.copy_link_copied" = "Link copiado";
+"community.promotion.header.title" = "Divulgue a comunidade";
+"community.promotion.header.description.partner" = "Realize a venda de assinaturas da comunidade por links conectados com a sua conta e receba automaticamente o valor da sua comissão.";
+"community.promotion.header.description.creator" = "São links que a Hotmart gera para você e Afiliados(as) venderem assinaturas da comunidade.";
+"community.promotion.header.link" = "Entenda mais sobre o rastreio de vendas com os links de divulgação";
+"community.promotion.plan.title" = "Selecione um plano";
+"community.promotion.plan.description" = "Escolha o plano que você deseja divulgar";
+"community.promotion.link.show_page" = "Mostrar página";
+"community.promotion.link.payment.title" = "Página de pagamento";
+"community.promotion.link.payment.description" = "Envie o link para seus clientes já assinarem a comunidade";
+"community.promotion.link.selling.title" = "Página de vendas";
+"community.promotion.link.selling.description" = "Divulgue sua comunidade e conquiste mais assinantes";
+"community.promotion.link.community.title" = "Página da comunidade";
+"community.promotion.link.community.description" = "Divulgue sua comunidade e conquiste mais assinantes";
+"community.promotion.link.platform" = "Gerenciar meus links na plataforma";
+
+"community.promotion.bottomSheet.title" = "Você está acessando um link sem rastreamento";
+"community.promotion.bottomSheet.subtitle" = "Para garantir que receba a sua comissão, o endereço do link com rastreamento de venda deve conter na sua estrutura <b>go.hotmart.com/</b> ou <b>hotm.art/</b> (quando encurtado)";
+"community.promotion.bottomSheet.option" = "Não exibir mais esta mensagem";
+
+
+// MARK: - Create Community
+
+"community.create.subscription.associate" = "Você pode definir valores para vender a assinatura da sua comunidade em diferentes lugares. Vamos lá?";
+
+"community.create.subscription.privacy.warning" = "Apenas comunidades fechadas podem ser comercializadas. Você pode ajustar isso na parte de <b>”Configurações”</b>.";
+
+"community.create.subscription.quantity.title" = "Quantos planos posso criar?";
+"community.create.subscription.quantity.description" = "Você pode criar apenas 1 plano por comunidade. Ele deve ter o preço principal, que será usado para assinaturas contratadas em sites, e você ainda pode adicionar 2 preços para assinaturas feitas pelo aplicativo Sparkle (1 para Android e 1 para iOS).";
+"community.create.subscription.settings.title" = "Escolha uma opção...";
+"community.create.subscription.settings.first" = "Editar plano de cobrança";
+"community.create.subscription.settings.second" = "Excluir plano de cobrança";
+"community.create.subscription.settings.delete.title" = "Tem certeza que deseja excluir o plano de cobrança?";
+"community.create.subscription.settings.delete.description" = "Essa ação excluirá permanentemente as informações e valores definidos para assinatura do plano.";
+"community.create.subscription.settings.delete.option.ok" = "Sim, excluir plano";
+"community.create.subscription.settings.delete.option.cancel" = "Cancelar";
+"community.create.subscription.polling.loading.title" = "Criando sua comunidade...";
+"community.create.subscription.polling.loading.description" = "Estamos trabalhando na criação da sua comunidade. Não se preocupe, isso pode levar algum tempo!";
+"community.create.subscription.polling.success.title" = "Sua comunidade foi criada com sucesso!";
+"community.create.subscription.polling.error.title" = "Sua comunidade não foi criada ainda";
+"community.create.subscription.polling.error.description" = "Ocorreu um erro durante o processo. Por favor, verifique sua conexão de internet e tente novamente.";
+"community.create.subscription.polling.error.button" = "Tentar Novamente";
+
+// MARK: - Scheduling
+
+"community.scheduled_posts_empty_state_title" = "Nenhuma publicação agendada";
+"community.scheduled_posts_empty_state_description" = "Você (e outros membros com privilégios administrativos) podem agendar publicações para serem disponibilizadas em dias e horários específicos.";
+
+
+// MARK: - CommunityDetail
+
+"community.community_detail.description.read_more" = "mostrar mais";
+"community.community_detail.new_post.start_new_post" = "Comece um novo tópico";
+"community.community_detail.error.title" = "Não foi possível mostrar a comunidade";
+"community.community_detail.error.description" = "Tente novamente ou volte para a tela anterior.";
+"community.community_detail.error.button" = "Tentar novamente";
+"community.community_detail.posts.empty.title" = "Ainda não existem publicações por aqui";
+"community.community_detail.posts.empty.description" = "Seja a primeira pessoa a começar um novo tópico ou a compartilhar algo.";
+"community.community_detail.non_collaborative_posts.empty.title" = "Sem publicações, ainda...";
+"community.community_detail.non_collaborative_posts.empty.description" = "Ainda não foram criadas publicações nesta comunidade";
+"community.community_detail.posts.error.title" = "Não foi possível mostrar as publicações";
+"community.community_detail.posts.error.description" = "Tente novamente ou volte para a tela anterior.";
+"community.community_detail.posts.error.button" = "Tentar novamente";
+"community.community_detail.posts.menu.delete" = "Excluir";
+"community.community_detail.posts.menu.edit" = "Editar";
+"community.community_detail.posts.menu.publish" = "Publicar agora";
+"community.community_detail.posts.menu.ban" = "Banir membro";
+"community.community_detail.posts.menu.ban.alert_title" = "Banir membro desta comunidade";
+"community.community_detail.posts.menu.ban.alert_description" = "Ao banir, o acesso a comunidade será bloqueado e todas as publicações deste membro serão excluídas. Deseja continuar com o bloqueio de %@ nesta comunidade?";
+"community.community_detail.posts.menu.ban.success_toast" = "A conta de %@ foi banida desta comunidade com sucesso! As publicações serão excluídas em alguns instantes.";
+"community.community_detail.posts.menu.ban.error_toast" = "Ocorreu um erro ao banir %@ da comunidade, tente novamente mais tarde.";
+"community.community_detail.blocked.page_title" = "Sem acesso";
+"community.community_detail.blocked.title" = "Você foi banido desta comunidade!";
+"community.community_detail.blocked.description" = "A administração baniu você desta comunidade. Isto pode ter acontecido por ter desrespeitado uma pessoa ou as regras da comunidade.";
+"community.community_detail.posts.delete_confirmation.title" = "Quer excluir esta publicação?";
+"community.community_detail.posts.delete_confirmation.description" = "Esta ação não poderá ser desfeita. As informações serão perdidas.";
+"community.community_detail.posts.delete_failure.title" = "Não foi possível excluir a publicação";
+"community.community_detail.posts.delete_failure.description" = "Tente excluir novamente ou cancele para tentar mais tarde.";
+"community.community_detail.search_publications.sort_filter.newer" = "Mais recentes";
+"community.community_detail.search_publications.sort_filter.older" = "Mais antigas";
+"community.community_detail.search_publications.view_filter.all" = "Todas";
+"community.community_detail.search_publications.view_filter.read" = "Lidas";
+"community.community_detail.search_publications.view_filter.unread" = "Não lidas";
+"community.community_detail.search_publications.view_filter.my_posts" = "Minhas publicações";
+"community.community_detail.search_publications.view_filter.schedules" = "Agendadas";
+"community.community_detail.search_publications.sort_filter_title" = "Ordenar";
+"community.community_detail.search_publications.view_filter_title" = "Mostrar";
+"community.community_detail.search_publications.apply_button_title" = "Aplicar";
+"community.community_detail.search_publications.in_addition_text" = "e";
+"community.community_detail.menu.options.members" = "Membros";
+"community.community_detail.menu.options.settings" = "Configurações";
+"community.community_detail.delete_community_popup.title" = "A comunidade e todos os conteúdos serão excluídos";
+"community.community_detail.delete_community_popup.text" = "Esta ação é permanente.";
+"community.community_detail.delete_community_popup.text_with_community_assiciated" = "Essa comunidade possui cursos associados. Ao excluí-la, os comentários em suas aulas serão desabilitados.";
+"community.community_detail.delete_community_popup.fail_to_delete.title" = "Não foi possível excluir a comunidade";
+"community.community_detail.delete_community_popup.fail_to_delete.text" = "Tente excluir novamente ou cancele para tentar mais tarde.";
+"community.community_detail.empty_state_with_filter.title" = "Não há publicações correspondentes a esse filtro";
+"community.community_detail.empty_state_with_filter.description" = "Você pode procurar por outros tipos de publicações";
+"community.community_detail.empty_state_with_filter.button_title" = "Inserir novo filtro";
+"community.community_detail.processing_video" = "Processando vídeo...";
+"community.community_detail.emojis_category.smileys_and_people" = "Carinhas & Pessoas";
+"community.community_detail.emojis_category.animals_and_nature" = "Animais & Natureza";
+"community.community_detail.emojis_category.food_and_drink" = "Comidas & Bebidas";
+"community.community_detail.emojis_category.activities" = "Atividades";
+"community.community_detail.emojis_category.travel_and_places" = "Viagens & Lugares";
+"community.community_detail.emojis_category.objects" = "Objetos";
+"community.community_detail.emojis_category.symbols" = "Símbolos";
+"community.community_detail.emojis_category.flags" = "Bandeiras";
+"community.community_detail.comments_counter.comments" = "%@ comentários";
+"community.community_detail.comments_counter.comment" = "1 comentário";
+
+// MARK: - AboutCommunity
+
+"community.aboutCommunity.page_title" = "sobre";
+"community.aboutCommunity.details_section_title" = "Detalhes da comunidade";
+
+// MARK: - MembershipCommunityCreationPreview
+
+"community.membership_community_creation_preview.page_title" = "Pré-visualização";
+"community.membership_community_creation_preview.description" = "Confira como será a aparência da sua comunidade em computadores e smartphones (pode haver diferenças em telas menores).";
+"community.membership_community_creation_preview.smartphone_preview" = "Em celulares";
+"community.membership_community_creation_preview.computer_preview" = "Em computadores";
+
+// MARK: - MembershipCommunityCreation
+
+"community.membership_community_creation.personalization.page_title" = "Criar comunidade";
+"community.membership_community_creation.personalization.personalization_title" = "PERSONALIZAÇÃO";
+"community.membership_community_creation.personalization.general_explanation" = "Deixe sua comunidade com a cara do seu negócio digital, alterando o avatar e incluindo uma foto de capa.";
+"community.membership_community_creation.personalization.banner_advice" = "Capa: exibida em formato retangular. Tamanho sugerido: 1368x315 pixels";
+"community.membership_community_creation.personalization.avatar_advice" = "Avatar: exibido em formato 1:1 (quadrado). Tamanho: 200x200 pixels";
+"community.membership_community_creation.personalization.auto_resize_alert" = "Importante: Qualquer imagem fora dessas proporções será ajustada automaticamente e poderá ter a qualidade afetada.";
+"community.membership_community_creation.personalization.banner_avatar_title" = "Capa e avatar";
+"community.membership_community_creation.personalization.show_preview_button" = "MOSTRAR PRÉVIA";
+"community.membership_community_creation.personalization.image_format_explanation" = "A imagem escolhida deve estar no formato JPG ou PNG e ter no máximo 5MB.";
+"community.membership_community_creation.personalization.community_description_textfield.placeholder" = "Descrição da capa da comunidade";
+"community.membership_community_creation.personalization.community_description_textfield.description" = "Crie uma descrição para deixar sua imagem acessível.";
+"community.membership_community_creation.personalization.avatar_description_textfield.placeholder" = "Descrição do avatar";
+"community.membership_community_creation.personalization.avatar_description_textfield.description" = "Crie uma descrição para deixar sua imagem acessível.";
+"community.membership_community_creation.personalization.save_button" = "Salvar";
+"community.membership_community_creation.personalization.previous_button" = "Anterior";
+"community.membership_community_creation.personalization.send_banner_button" = "Enviar imagem de capa";
+"community.membership_community_creation.personalization.change_avatar" = "Alterar avatar";
+"community.membership_community_creation.personalization.generic_file_bigger_than_allowed_message" = "O arquivo excede os limite máximo de 5mb";
+"community.membership_community_creation.personalization.avatar_bigger_than_allowed_message" = "A imagem do avatar excede o limite máximo de 5MB";
+"community.membership_community_creation.personalization.banner_bigger_than_allowed_message" = "A imagem de capa excede o limite máximo de 5MB";
+"community.membership_community_creation.personalization.upload_banner_failure" = "Erro no envio da imagem de capa. Tente novamente";
+"community.membership_community_creation.personalization.upload_avatar_failure" = "Erro no envio da imagem de avatar. Tente novamente";
+"community.membership_community_creation.picker_image.title" = "Selecione uma opção";
+"community.membership_community_creation.picker_image.gallery" = "Galeria";
+"community.membership_community_creation.picker_image.camera" = "Câmera";
+"community.membership_community_creation.picker_image.cancel_button" = "Cancelar";
+"community.membership_community_creation.basic_information.next_step_button" = "Próximo";
+"community.membership_community_creation.basic_information.title" = "INFORMAÇÕES BÁSICAS";
+"community.membership_community_creation.basic_information.explanation" = "Defina um nome e uma descrição da comunidade para o seu público.";
+"community.membership_community_creation.basic_information.name_textfield.placeholder" = "Digite aqui o nome da sua comunidade";
+"community.membership_community_creation.basic_information.name_description_textfield" = "30 caracteres restantes";
+"community.membership_community_creation.basic_information.description_textfield.placeholder" = "Descrição da comunidade";
+"community.membership_community_creation.basic_information.description_textfield.error_alert" = "A descrição deve ter no mínimo %@ caracteres";
+"community.membership_community_creation.basic_information.description_textfield" = "Conte um pouco sobre o que é esta comunidade";
+"community.membership_community_creation.leave_creation_popup.title" = "Tem certeza que quer sair sem salvar a comunidade?";
+"community.membership_community_creation.leave_creation_popup.description" = "Para salvar as informações antes de sair, finalize a criação.";
+"community.membership_community_creation.leave_creation_popup.leave_creation_button" = "Sair";
+"community.membership_community_creation.leave_creation_popup.keep_creating_button" = "Continuar criando";
+"community.membership_community_creation.success_state.first_button_title" = "Associar cursos";
+"community.membership_community_creation.success_state.second_button_title" = "Mostrar comunidade";
+"community.membership_community_creation.success_state.description" = "Associe cursos a essa comunidade para que seus alunos consigam realizar comentários em aulas e criar interações.";
+"community.membership_community_creation.success_state.alternative.description" = "Comece agora a compartilhar conteúdos\n e fique ainda mais perto do seu público.";
+
+// MARK: - MembershipCommunityEdition
+
+"community.membership_community_edition.page_titlte" = "Editar comunidade";
+"community.membership_community_edition.screen_state.loading_title" = "Atualizando sua comunidade...";
+"community.membership_community_edition.screen_state.loading_text" = "Estamos trabalhando na edição da sua comunidade. Não se preocupe, isso pode levar algum tempo!";
+"community.membership_community_edition.screen_state.success_title" = "Sua comunidade foi editada com sucesso!";
+"community.membership_community_edition.screen_state.error_title" = "Suas atualizações ainda não foram salvas";
+"community.membership_community_edition.screen_state.error_text" = "Ocorreu um erro durante o processo. Por favor, verifique sua conexão de internet e tente novamente.";
+"community.membership_community_edition.leave_edition_popup.keep_editing_button" = "CONTINUAR EDITANDO";
+"community.membership_community_edition.leave_edition_popup.description" = "Para salvar as informações antes de sair, finalize a edição.";
+"community.membership_community_edition.error_state.title" = "Tivemos um erro por aqui";
+"community.membership_community_edition.error_state.description" = "Não conseguimos carregar essa página agora. Tente novamente mais tarde.";
+"community.membership_community_edition.error_state.button" = "Tentar novamente";
+
+// MARK: - MembershipCommunityMembers
+
+"community.membership_community_members.page_title" = "Membros";
+"community.membership_community_members.card.title" = "Quem acessa sua área de membros já está aqui";
+"community.membership_community_members.card.description" = "Se quiser, você pode gerenciar as permissões de acesso.";
+"community.membership_community_members.card.button_text" = "Gerenciar acessos";
+"community.membership_community_members.redirect_link" = "https://app-vlc.hotmart.com/products/producer";
+
+// MARK: - Community association
+
+"community.membership_community_association.page_title" = "Associar cursos";
+"community.membership_community_association.tabs.available.title" = "Disponíveis";
+"community.membership_community_association.tabs.unavailable.title" = "Indisponíveis";
+"community.membership_community_association.tabs.available.explanation" = "Os cursos abaixo estão disponíveis para serem vinculados a essa comunidade.";
+"community.membership_community_association.tabs.unavailable.explanation" = "Os cursos abaixo já estão associados a outras comunidades, por isso estão indisponíveis para a associação atual. Você pode editar as associações dentro de cada comunidade.";
+"community.membership_community_association.error_state.title" = "Não foi possível mostrar os cursos";
+"community.membership_community_association.error_state.description" = "Tente novamente ou volte para a tela anterior.";
+"community.membership_community_association.error_state.button_title" = "Tentar novamente";
+"community.membership_community_association.save_button_title" = "Salvar";
+"community.membership_community_association.attention_box.associated_to_this_community" = "Este curso já está associado a essa comunidade.";
+"community.membership_community_association.attention_box.associated_to_other_community" = "Já está associado a comunidade %@";
+"community.membership_community_association.dissociation_alert.title" = "Quer mesmo desassociar o curso dessa comunidade?";
+"community.membership_community_association.dissociation_alert.message" = "Ao desassociar esse curso da comunidade, os participantes não poderão realizar comentários em suas aulas. Os comentários antigos permanecerão apenas na comunidade.";
+"community.membership_community_association.dissociation_alert.dissociation_button_title" = "Desassociar";
+"community.membership_community_association.dissociation_alert.cancel_button_title" = "Cancelar";
+"community.membership_community_association.empty_state.button_title" = "Adicionar cursos";
+"community.membership_community_association.empty_state.available.title" = "Sem cursos para associar";
+"community.membership_community_association.empty_state.available.description" = "Todos os cursos já foram associados a outras comunidades ou você ainda não adicionou cursos ao seu Hotmart Club.";
+"community.membership_community_association.empty_state.unavailable.title" = "Sem cursos para mostrar";
+"community.membership_community_association.empty_state.unavailable.description" = "Você não associou cursos à uma comunidade ou ainda não adicionou cursos ao seu Hotmart Club.";
+"community.membership_community_association.empty_state.url_redirect" = "https://app.hotmart.com/membership/%@/products/add";
+
+// MARK: - Banned users
+
+"community.banned_users.title" = "Lista de banimentos";
+"community.banned_users.section_header.title" = "Usuários banidos";
+"community.banned_users.section_header.description" = "Lista de membros banidos nesta comunidade pelo administrador, remova da lista para desbanir.";
+"community.banned_users.text_field.label" = "Digite o nome ou email do membro";
+"community.banned_users.error_state.title" = "Tivemos um erro por aqui";
+"community.banned_users.error_state.description" = "Não conseguimos carregar esta listagem agora. Tente novamente mais tarde.";
+"community.banned_users.empty_state.title" = "Sem banimentos";
+"community.banned_users.empty_state.description" = "Nenhum membro foi banido, mas não hesite se precisar!";
+"community.banned_users.empty_search_state.title" = "Nenhum resultado";
+"community.banned_users.empty_search_state.description" = "Não foi encontrado nenhum membro banido com esse critério de busca";
+"community.banned_users.list.action" = "Desbanir";
+"community.banned_users.unban_dialog.title" = "Desbanir membro desta comunidade";
+"community.banned_users.unban_dialog.description" = "Deseja desbanir %@, permitindo novamente o seu acesso a esta comunidade?";
+"community.banned_users.feedback_toast.success" = "A conta de %@ foi desbanida com sucesso!";
+"community.banned_users.feedback_toast.failure" = "Ocorreu um erro ao desbanir %@, tente novamente mais tarde.";
+
+// MARK: - AccessAndPrivacy
+"community.access_and_privacy.title" = "Acesso e Privacidade";
+"community.access_and_privacy.warning_view.text" = "No momento, não é possível editar a privacidade da comunidade.";
+"community.access_and_privacy.sections.manage.title" = "GERENCIAR PRIVACIDADE DA COMUNIDADE";
+"community.access_and_privacy.sections.manage.description" = "Defina se sua comunidade será exclusiva ou aberta.";
+"community.access_and_privacy.sections.manage.openComunnity.title" = "Comunidade aberta";
+"community.access_and_privacy.sections.manage.openComunnity.description" = "Todas as pessoas com acesso a sua área de membros, poderão acessar esta comunidade";
+"community.access_and_privacy.sections.manage.exclusiveCommunity.title" = "Comunidade exclusiva";
+"community.access_and_privacy.sections.manage.exclusiveCommunity.description" = "Apenas pessoas com acesso a cursos selecionados podem acessar esta comunidade.";
+"community.access_and_privacy.sections.bindCommunity.title" = "VINCULAR CURSOS";
+"community.access_and_privacy.sections.bindCommunity.description" = "Defina quais cursos estarão vinculados a esta comunidade.";
+"community.access_and_privacy.sections.bindCommunity.buttonTitle" = "Vincular";
+"community.access_and_privacy.sections.bindCommunity.unbind" = "Desvincular";
+"community.access_and_privacy.sections.bindCommunity.header" = "Defina quais cursos estarão vinculados a esta comunidade. Apenas alunos dos cursos selecionados poderão acessar de forma exclusiva esta comunidade.";
+"community.access_and_privacy.sections.bindCommunity.error.button" = "Tentar Novamente";
+
+// MARK: - BindCourse
+
+"community.bindCourse.loading.title" = "Atualizando sua comunidade...";
+"community.bindCourse.loading.description" = "Estamos trabalhando na edição da sua comunidade. Isso pode levar algum tempo.";
+"community.bindCourse.success.title" = "Sua comunidade foi editada com sucesso!";
+"community.bindCourse.error.firstButton" = "Tentar novamente";
+"community.bindCourse.error.secondButton" = "Voltar";
+"community.bindCourse.error.title" = "Suas atualizações ainda não foram salvas";
+"community.bindCourse.error.description" = "Ocorreu um erro durante o processo. Por favor, verifique sua conexão de internet e tente novamente.";
+"community.bindCourse.bindAlert.title" = "Quer mesmo desvincular o curso, dessa comunidade?";
+"community.bindCourse.bindAlert.descriptionLastCommunity" = "Ao desvincular a comunidade do curso, apenas você poderá acessá-la no Hotmart Club.";
+"community.bindCourse.bindAlert.descriptionHasMoreCommunities" = "Ao realizar a desvinculação, os alunos desse curso não terão mais acesso a esta comunidade.";
+"community.bindCourse.bindAlert.cancel" = "Cancelar";
+"community.bindCourse.bindAlert.ok" = "Ok, desvincular";
+
+
+// MARK: - Featured members
+
+"community.featured_members.score" = "pts";
+"community.featured_members.score_singular" = "pt";
+"community.featured_members.empty_state.description" = "Não houveram interações na comunidade na última semana. Crie publicações relevantes para movimentar o ranking.";
+"community.featured_members.empty_state.buttom_title" = "Criar publicação";
+"community.featured_members.page_title" = "Membros em destaque";
+"community.featured_members.page_description" = "Ranking semanal de membros que fizeram publicações mais relevantes na comunidade.";
+"community.featured_members.error_state.title"  = "Não foi possível mostrar a página";
+"community.featured_members.error_state.description" = "Tente novamente ou volte para a tela anterior.";
+"community.featured_members.error_state.button_title" = "Tentar novamente";
+"community.featured_members.ranking" = "Ranking";
+
+// MARK: - Community Settings
+
+"community.settings.title" = "Configurações";
+"community.settings.access_and_privacy" = "Acesso e Privacidade";
+"community.settings.members_and_permissions" = "Membros e Permissões";
+"community.settings.ban_list" = "Lista de banimentos";
+
+// MARK: - Members and Permissions
+
+"community.members_and_permissions.title" = "Membros e Permissões";
+"community.members_and_permissions.section_header.title" = "Lista de Membros";
+"community.members_and_permissions.section_header.description" = "Gerencie as permissões dos membros nesta comunidade";
+"community.members_and_permissions.member" = "Membro";
+"community.members_and_permissions.moderation" = "Moderação";
+"community.members_and_permissions.admin" = "Admin";
+"community.members_and_permissions.member_pill" = "Membros";
+"community.members_and_permissions.moderation_pill" = "Moderação";
+"community.members_and_permissions.admin_pill" = "Admin";
+"community.members_and_permissions.search_label" = "Procure o nome de um membro";
+"community.members_and_permissions.member_list" = "Membro";
+"community.members_and_permissions.moderation_list" = "Moderação";
+"community.members_and_permissions.admin_list" = "Admin";
+"community.members_and_permissions.success_toast" = "A permissão de %@ foi alterada com sucesso!";
+"community.members_and_permissions.failure_toast" = "Ocorreu um erro ao atribuir o papel";
+"community.members_and_permissions.error_state.title" = "Tivemos um erro por aqui";
+"community.members_and_permissions.error_state.description" = "Não conseguimos carregar esta listagem agora. Tente novamente mais tarde.";
+"community.members_and_permissions.empty_state.title" = "Nenhum resultado";
+"community.members_and_permissions.empty_state.description" = "Não foi encontrado nenhum membro com esse critério de busca";
+"community.members_and_permissions.bottom_sheet.section_header.title" = "Gestão do membro";
+"community.members_and_permissions.bottom_sheet.role_field_label" = "Permissão";
+"community.members_and_permissions.bottom_sheet.save_button" = "Salvar";
