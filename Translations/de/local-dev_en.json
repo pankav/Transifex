@@ -1,18 +1,18 @@
 {
   "actions": {
-    "info-link": "Zur Website von Samedis.care!",
-    "inventory": "Offenes Inventar3",
-    "show-details": "Details anzeigen (Login erforderlich)3",
-    "link-inventory": "Inventar verknüpfen3"
+    "info-link": "Zur Samedis.care Website!",
+    "inventory": "Offenes Inventar",
+    "show-details": "Details anzeigen (Anmeldung erforderlich)",
+    "link-inventory": "Linkbestand"
   },
   "briefed": "Hat eine Ausbildung",
   "documents": "Unterlagen",
   "image": "Bilder",
   "owner": "Eigentümer",
   "qr-not-linked": {
-    "title": "QR-Code ist keinem Gerät zugeordnet.",
+    "title": "Der QR-Code ist keinem Gerät zugewiesen.",
     "help-texts": [
-      "Dieser QR-Code bezieht sich auf kein Inventar (Gerät). Diesen QR-Code können Sie einem bestehenden Inventar (z. B. aus einem Import für die Erstinventur) zuweisen oder ein neues Gerät anlegen."
+      "Dieser QR-Code verweist auf kein Inventar (Gerät). Sie können diesen QR-Code einem bestehenden Inventar (z.B. aus einem Import zur Erstinventur) zuordnen oder ein neues Gerät anlegen."
     ]
   }
 }
