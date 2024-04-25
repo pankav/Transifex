@@ -15,3 +15,8 @@ git:
     source_language: en
     translation_files_expression: 'Translations/<lang>/'
 
+  - filter_type: file
+    file_format: PO
+    source_language: en
+    source_file: 'translation_en.po'
+    translation_files_expression: 'translations/<lang>.po'
