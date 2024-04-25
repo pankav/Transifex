@@ -9,6 +9,7 @@
   "documents": "Documents",
   "image": "Images",
   "owner": "Owner",
+  "new owner": "New Owner",
   "qr-not-linked": {
     "title": "QR code is not assigned to a device.",
     "help-texts": [
