@@ -21,7 +21,7 @@ msgstr ""
 
 msgctxt "{\"cxt\": \"survey_next\", \"id\": 280527177, \"checksum\": 2753412866}"
 msgid "Weiter"
-msgstr "Επόμενο"
+msgstr "Επόμενο."
 
 msgctxt "{\"cxt\": \"survey_prev\", \"id\": 280527177, \"checksum\": 483403627}"
 msgid "Zurück"
